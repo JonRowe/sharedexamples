@@ -155,6 +155,9 @@ GEM
     uglifier (2.5.0)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.6)
 
 PLATFORMS
   ruby
@@ -168,3 +171,4 @@ DEPENDENCIES
   middleman-sprockets
   middleman-sync
   sass
+  unf
