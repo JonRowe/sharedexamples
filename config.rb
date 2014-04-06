@@ -29,6 +29,9 @@ module ::Rails
   end
 end
 
+require 'excon'
+Excon.defaults[:ssl_verify_peer] = false
+
 activate :sync do |sync|
   sync.fog_provider          = 'AWS'
   sync.fog_region            = ENV['S3_REGION']
