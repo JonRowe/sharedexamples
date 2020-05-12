@@ -1,6 +1,6 @@
 # If you have OpenSSL installed, we recommend updating
 # the following line to use "https"
-source 'http://rubygems.org'
+source 'https://rubygems.org'
 
 gem 'dotenv'
 gem 'unf'
@@ -8,8 +8,6 @@ gem 'unf'
 gem 'haml'
 gem 'sass'
 
-gem "middleman",             "~>3.3.1"
-gem "middleman-livereload", "~> 3.1.0"
-gem 'middleman-smusher'
+gem 'middleman', '~> 5.0.0.rc1'
+gem 'middleman-livereload'
 gem 'middleman-sprockets'
-gem 'middleman-sync'
